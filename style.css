@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    background-color: #e9c46a;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  header {
+    min-height: 15vh;
+    background-color: #e9c46a;
+    position: relative;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  main {
+    min-height: 65vh;
+    padding:20px;
+    display: flex;
+    background: url("./minions.jpg");
+    background-size: contain;
+    
+ 
+  }
+  
+  main button {
+    align-self: center;
+    margin:20px;
+    padding:20px;
+    width: 10%;
+    background-color: #fafa3a;
+    color: #000;
+    font-weight: 500;
+    border: 1px black solid;
+    border-radius: 3px;
+  
+    cursor: pointer;
+  }
+  
+  .resultContainer {
+    background-color: #fafa3a;
+    opacity: 0.9;
+  }
+
+
+  
+  .inputContainer textarea {
+    opacity: 0.9;
+    padding:20px;
+  }
+  
+  .resultContainer {
+    height: 58vh;
+    width: 60vw;
+    border: 1px solid #000;
+    padding:20px;
+  }
+  
+  footer {
+    min-height: 20vh;
+    background-color: #e9c46a;
+    padding:20px;
+    text-align: center;
+  }
+  
+  footer p {
+    padding-top:20px;
+  }
+  
